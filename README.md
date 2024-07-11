@@ -10,8 +10,6 @@ OCR Invoices is a web-based application that leverages Optical Character Recogni
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Future Improvements](#future-improvements)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Features
 
