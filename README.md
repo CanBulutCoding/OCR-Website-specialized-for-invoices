@@ -47,7 +47,7 @@ Update the tesseract_cmd.py file with the correct path to the Tesseract executab
 
 3. **Run the Application**:
    ```sh
-python app.py
+   python app.py
 
 ## Usage
 **Home Page**:
