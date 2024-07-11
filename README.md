@@ -70,6 +70,13 @@ The application will process each image in the folder and display the extracted 
 
 ![image](https://github.com/CanBulutCoding/OCR-Website-specialized-for-invoices/assets/127326150/b348183c-5f75-42e3-9da6-f643952afade)
 ![image](https://github.com/CanBulutCoding/OCR-Website-specialized-for-invoices/assets/127326150/9fd65b46-e434-4874-bf7b-395e5125f72e)
+![image](https://github.com/CanBulutCoding/OCR-Website-specialized-for-invoices/assets/127326150/7c537006-c8b8-42b3-9f5a-ab3f4c811b3f)
+![image](https://github.com/CanBulutCoding/OCR-Website-specialized-for-invoices/assets/127326150/86dd81b3-984c-472e-b773-03495359f5f0)
+![image](https://github.com/CanBulutCoding/OCR-Website-specialized-for-invoices/assets/127326150/2cbb749c-c9d2-42ef-86d8-2f4756282ee5)
+![image](https://github.com/CanBulutCoding/OCR-Website-specialized-for-invoices/assets/127326150/a609e11c-8a4c-453a-b4e6-1661b92b43cb)
+![image](https://github.com/CanBulutCoding/OCR-Website-specialized-for-invoices/assets/127326150/aca27873-2b97-4cdf-a096-39d00eee16c0)
+![image](https://github.com/CanBulutCoding/OCR-Website-specialized-for-invoices/assets/127326150/42ce69ac-9527-4421-a151-fdf9a342289e)
+
 
 
 ## Future Improvements
