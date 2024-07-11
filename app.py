@@ -160,17 +160,28 @@ def extract_products_kdv(text):
     product_pattern = re.compile(r'([A-ZÇĞİÖŞÜ\s]+)\s+X?(\d+)\s+\*?([\d\s,.]+)', re.IGNORECASE)
     products_kdv = []
     total_kdv = 0.0
-    
-    for match in product_pattern.findall(text):
+    head_part_end = text.find('TOPKDV')
+    if head_part_end == -1:
+        return products_kdv, total_kdv
+
+    head_part_text = text[:head_part_end]
+    for match in product_pattern.findall(head_part_text):
         product_name, quantity, price = match
         product_name = product_name.strip()
         quantity = int(quantity)
         price = sanitize_price(price)
-        kdv_rate = 0.20  # Default KDV rate
+
+        # Determine KDV rate
+        kdv_rate = 0.10  # Default KDV rate
+
+        # Check for common misreading issues in KDV rate
+        if quantity in [4, 7]:  # If the quantity is misread, it should be a percentage
+            kdv_rate = int(f'{quantity}{str(price)[:2]}') / 100
+
         kdv_amount = price * kdv_rate
         products_kdv.append((product_name, quantity, price, kdv_rate, kdv_amount))
         total_kdv += kdv_amount
-    
+
     return products_kdv, total_kdv
 
 def sanitize_price(price_str):
